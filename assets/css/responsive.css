@@ -90,6 +90,7 @@
             height: 100%;
             padding: 0 0 0 50px;
             outline: none;
+            border: none;
         }
         .header-bar__overlay-mobile-list {
             list-style: none;
@@ -159,5 +160,19 @@
         }
         .c-header-bttm__logo-img {
             width: 195px;
+        }
+        .header-bar__overlay-mobile {
+            width: 58%;    
+        }
+        .header-bar__overlay-mobile-close-1 {
+            color: var(--text-color);
+            font-size: 1.8rem;
+            width: 100%;
+            text-align: center;
+            display: block;
+            margin-top: 10px;
+        }
+        .c-footer__app-store-item-link-icon {
+            font-size: 2.6rem;
         }
     }
