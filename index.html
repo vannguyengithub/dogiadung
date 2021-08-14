@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dồ Gia Dụng</title>
+    <link rel="icon" type="image/png" href="https://sieuthiviet.vn/uploads/images/6492icon440x440.jpeg"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.15.4-web/css/all.css">
+    <!-- owl slider  -->
+    <link rel="stylesheet" href="assets/slider/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/slider/owlcarousel/assets/owl.theme.default.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/slider/owlcarousel/owl.carousel.min.js"></script>
+</head>
+<body>
+    <div class="app">   
+        <header>
+            <div class="c-header-top">
+                <div class="grid wide">
+                    <div class="c-header-top__inner">
+                        <ul class="c-header-top-left__list">
+                            <li class="c-header-top-left__item"><a class="c-header-top-left__item-link" href="#">Cửa hàng</a> </li>
+                            <li class="c-header-top-left__item">Hotline: <span class="c-header-top-left__phone">0342133767</span></li>
+                            <li class="c-header-top-left__item"><a class="c-header-top-left__item-link" href="#">Trợ giúp</a></li>
+                            <li class="c-header-top-left__item"><a class="c-header-top-left__item-link" href="#">FAQs</a></li>
+                        </ul>
+                        <ul class="c-header-top-right__list">
+                            <li class="c-header-top-right__item">
+                                <div class="c-header-top-right__apps">
+                                    <a class="c-header-top-right__apps-link" href="#"><i class="c-header-top-right__apps--icon fab fa-facebook"></i></a>
+                                    <a class="c-header-top-right__apps-link" href="#"><i class="c-header-top-right__apps--icon fab fa-instagram"></i></a>
+                                    <a class="c-header-top-right__apps-link" href="#"><i class="c-header-top-right__apps--icon fab fa-youtube"></i></a>
+                                </div>
+                            </li>
+                            <li class="c-header-top-right__item">
+                                <div class="c-header-top-right__logins">
+                                   <a class="c-header-top-right__login-link1" href="#">Đăng nhập</a>
+                                   <a class="c-header-top-right__login-link" href="#">Đăng ký</a>
+                                </div>
+                            </li>
+                            <li class="c-header-top-right__item">
+                                <a class="c-header-top-right__cart-link" href="#"><i class="c-header-top-right__icon-cart fas fa-shopping-cart"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="c-header-bttm">
+                <div class="grid wide">
+                    <div class="c-header-bttm__inner">
+                        <!-- bar -->
+                        <label for="bar-input" class="header-bar">
+                            <i class="header-bar__icon fas fa-bars"></i>
+                        </label>
+                        <input class="header-bar__input" hidden type="checkbox" id="bar-input">
+                        <label for="bar-input" class="c-header-overlay">
+                            <div class="header-bar__overlay-mobile-close">
+                                <i class="header-bar__overlay-mobile-close-icon far fa-times-circle"></i>
+                            </div>
+                        </label>
+                        <!-- overlay -->
+                        <div class="header-bar__overlay-mobile">
+                            <div class="header-bar__overlay-mobile-search">
+                                <input class="header-bar__overlay-mobile-search-ipt" placeholder="Tìm kiếm..." type="text">
+                                <i class="header-bar__overlay-mobile-search-icon fas fa-search"></i>
+                            </div>
+                            <ul class="header-bar__overlay-mobile-list">
+                                <li class="header-bar__overlay-mobile-item">
+                                    <a class="header-bar__overlay-mobile-link" href="#">Trang chủ</a>
+                                </li>
+                                <li class="header-bar__overlay-mobile-item">
+                                    <a class="header-bar__overlay-mobile-link" href="#">Giới thiệu</a>
+                                </li>    
+                                <li class="header-bar__overlay-mobile-item">
+                                    <a class="header-bar__overlay-mobile-link" href="#">Cửa hàng</a>
+                                </li>
+                                <li class="header-bar__overlay-mobile-item">
+                                    <a class="header-bar__overlay-mobile-link" href="#">Khuyến mãi </a>
+                                </li>
+                                <li class="header-bar__overlay-mobile-item">
+                                    <a class="header-bar__overlay-mobile-link" href="#">Tin tức</a>
+                                </li>
+                                <li class="header-bar__overlay-mobile-item">
+                                    <a class="header-bar__overlay-mobile-link" href="#">Liên hệ</a>
+                                </li>
+                                <li class="header-bar__overlay-mobile-item">
+                                    <a class="header-bar__overlay-mobile-link" href="#">Đăng nhập</a>
+                                </li>
+                                <li class="header-bar__overlay-mobile-item">
+                                    <a class="header-bar__overlay-mobile-link" href="#">Thông báo</a>
+                                </li>
+                                <li class="header-bar__overlay-mobile-item">
+                                    <a class="header-bar__overlay-mobile-link-app" href="#">
+                                        <i class="header-bar__overlay-mobile-link-app-icon fab fa-facebook"></i>
+                                    </a>
+                                    <a class="header-bar__overlay-mobile-link-app" href="#">
+                                        <i class="header-bar__overlay-mobile-link-app-icon fab fa-instagram"></i>
+                                    </a>
+                                    <a class="header-bar__overlay-mobile-link-app" href="#">
+                                        <i class="header-bar__overlay-mobile-link-app-icon fab fa-youtube"></i>
+                                    </a>
+                                    <a class="header-bar__overlay-mobile-link-app" href="#">
+                                        <i class="header-bar__overlay-mobile-link-app-icon fab fa-twitter-square"></i>
+                                    </a>
+                                </li>
+                                <li class="header-bar__overlay-mobile-item">
+                                    <h3 class="header-bar__overlay-mobile-phone">0342133767</h3>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--  -->
+                        <div class="c-header-bttm__txtbox">
+                            <a class="c-header-bttm__logo-img-link" href="#"><img class="c-header-bttm__logo-img" src="assets/img/11logoN.png" alt="logo"></a>
+                            <i class="c-header-bttm__shopping-mobile fas fa-shopping-cart"></i>
+                            <ul class="c-header-bttm__list">
+                                <li class="c-header-bttm__item"><a class="c-header-bttm__item-link c-header-bttm__item-link--active" href="#">Trang chủ</a></li>
+                                <li class="c-header-bttm__item">
+                                    <a class="c-header-bttm__item-link" href="#">Sản phẩm</a>
+                                    <!--  -->
+                                    <ul class="c-header-bttm__item-category-list">
+                                        <li class="c-header-bttm__item-category-item">
+                                            <a class="c-header-bttm__item-category-item-link" href="#"> Bàn ghế</a>
+                                        </li>
+                                        <li class="c-header-bttm__item-category-item">
+                                            <a class="c-header-bttm__item-category-item-link" href="#"> Gia đình</a>
+                                        </li>
+                                        <li class="c-header-bttm__item-category-item">
+                                            <a class="c-header-bttm__item-category-item-link" href="#"> Sân vườn </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="c-header-bttm__item"><a class="c-header-bttm__item-link" href="#">Giới thiệu</a></li>
+                                <li class="c-header-bttm__item">
+                                    <a class="c-header-bttm__item-link" href="#">Tin tức</a>
+                                    <ul class="c-header-bttm__item-category-list">
+                                        <li class="c-header-bttm__item-category-item">
+                                            <a class="c-header-bttm__item-category-item-link" href="#"> Tin tức</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="c-header-bttm__item"><a class="c-header-bttm__item-link" href="#">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                        <div class="c-header-bttm__search">
+                                <input class="c-header-bttm__search-ipt" type="text" placeholder="Tìm kiếm...."> 
+                                <div class="c-header-bttm__font-icon">
+                                    <i class="c-header-bttm__search-icon fas fa-search"></i>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="c-slider">
+            <div class="grid">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 3</div>
+                      <img src="assets/img/slider1.jpg" style="width:100%">
+                      <div class="text">Caption Text</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <img src="assets/img/slider2.jpg" style="width:100%">
+                      <div class="text">Caption Two</div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+                </div>
+                    
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                      <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+                    
+                    <script>
+                        var slideIndex = 1;
+                        showSlides(slideIndex);
+                        
+                        function plusSlides(n) {
+                        showSlides(slideIndex += n);
+                        }
+                        
+                        function currentSlide(n) {
+                        showSlides(slideIndex = n);
+                        }
+                    
+                    function showSlides(n) {
+                        var i;
+                        var slides = document.getElementsByClassName("mySlides");
+                        var dots = document.getElementsByClassName("dot");
+                        if (n > slides.length) {slideIndex = 1}    
+                        if (n < 1) {slideIndex = slides.length}
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";  
+                        }
+                        for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                        }
+                        slides[slideIndex-1].style.display = "block";  
+                        dots[slideIndex-1].className += " active";
+                    }
+                    </script>
+            </div>
+        </section>
+        <!--  -->
+        <section class="c-product">
+            <div class="grid wide">
+                <div class="c-product__inner">
+                    <div class="c-product__title">
+                        <h2 class="c-product__heading-title">Sản phẩm tiêu biểu</h2>
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="l-3 m-6 ">
+                            <div class="c-product__pain-inner">
+                                <div class="c-product__pain-imgbox">
+                                    <a class="c-product__pain-imgbox-link" href="#">
+                                        <img class="c-product__pain-image" src="assets/img/product1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="c-product__pain-txtbox">
+                                    <h5 class="c-product__name-category"><a class="c-product__name-category-link" href="#"> Nội Thất Y Tế</a></h5>
+                                    <h4 class="c-product__name-pdt"> Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch </h4>
+                                </div>
+                                <div class="c-product__price-box">
+                                    <span class="c-product__price-old">
+                                        300,000đ
+                                    </span>
+                                    <span class="c-product__price-current">
+                                        249,000đ
+                                    </span>
+                                </div>
+                                <div class="c-product__add-cart">
+                                        <a class="c-product__add-cart-link" href="#">Thêm giỏ hàng</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="l-3 m-6 ">
+                            <div class="c-product__pain-inner">
+                                <div class="c-product__pain-imgbox">
+                                    <a class="c-product__pain-imgbox-link" href="#">
+                                        <img class="c-product__pain-image" src="assets/img/product1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="c-product__pain-txtbox">
+                                    <h5 class="c-product__name-category"><a class="c-product__name-category-link" href="#"> Nội Thất Y Tế</a></h5>
+                                    <h4 class="c-product__name-pdt"> Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch </h4>
+                                </div>
+                                <div class="c-product__price-box">
+                                    <span class="c-product__price-old">
+                                        300,000đ
+                                    </span>
+                                    <span class="c-product__price-current">
+                                        249,000đ
+                                    </span>
+                                </div>
+                                <div class="c-product__add-cart">
+                                        <a class="c-product__add-cart-link" href="#">Thêm giỏ hàng</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="l-3 m-6">
+                            <div class="c-product__pain-inner">
+                                <div class="c-product__pain-imgbox">
+                                    <a class="c-product__pain-imgbox-link" href="#">
+                                        <img class="c-product__pain-image" src="assets/img/product1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="c-product__pain-txtbox">
+                                    <h5 class="c-product__name-category"><a class="c-product__name-category-link" href="#"> Nội Thất Y Tế</a></h5>
+                                    <h4 class="c-product__name-pdt"> Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch </h4>
+                                </div>
+                                <div class="c-product__price-box">
+                                    <span class="c-product__price-old">
+                                        300,000đ
+                                    </span>
+                                    <span class="c-product__price-current">
+                                        249,000đ
+                                    </span>
+                                </div>
+                                <div class="c-product__add-cart">
+                                        <a class="c-product__add-cart-link" href="#">Thêm giỏ hàng</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="l-3 m-6">
+                            <div class="c-product__pain-inner">
+                                <div class="c-product__pain-imgbox">
+                                    <a class="c-product__pain-imgbox-link" href="#">
+                                        <img class="c-product__pain-image" src="assets/img/product1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="c-product__pain-txtbox">
+                                    <h5 class="c-product__name-category"><a class="c-product__name-category-link" href="#"> Nội Thất Y Tế</a></h5>
+                                    <h4 class="c-product__name-pdt"> Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch Cọc truyền dịch </h4>
+                                </div>
+                                <div class="c-product__price-box">
+                                    <span class="c-product__price-old">
+                                        300,000đ
+                                    </span>
+                                    <span class="c-product__price-current">
+                                        249,000đ
+                                    </span>
+                                </div>
+                                <div class="c-product__add-cart">
+                                        <a class="c-product__add-cart-link" href="#">Thêm giỏ hàng</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- see -->
+                <div class="c-see__product">
+                    <p class="c-see__product-add"><a class="c-see__product-add-link" href="#"> Xem thêm >></a></p>
+                </div>
+                <!-- end see -->
+            </div>
+        </section>
+        <section class="c-news">
+            <div class="grid wide">
+                <div class="c-news__inner">
+                    <div class="c-product__title">
+                        <h2 class="c-product__heading-title">Tin tức</h2>
+                    </div>
+                    <!-- <div class="row no-gutters"> -->
+                        <script>
+                            $(document).ready(function(){
+                               $('.owl-carousel').owlCarousel({
+                                    loop:true,
+                                    margin:10,
+                                    responsiveClass:true,
+                                    responsive:{
+                                        0:{
+                                            items:1,
+                                            nav:true
+                                        },
+                                        600:{
+                                            items:3,
+                                            nav:false
+                                        },
+                                        1000:{
+                                            items:5,
+                                            nav:true,
+                                            loop:false
+                                        }
+                                    }
+                                })
+                            });
+                        </script>
+                      <!-- Set up your HTML -->
+                        <div class="owl-carousel owl-carousel--blogs">
+                            <div> 
+                                <figure class="snip1493">
+                                    <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/ls-sample1.jpg" alt="ls-sample1" /></div>
+                                    <figcaption>
+                                      <div class="date"><span class="day">28</span><span class="month">Oct</span></div>
+                                      <h3>The World Ended Yesterday</h3>
+                                      <p>
+                                  
+                                        You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
+                                         You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
+                                     
+                                      </p>
+                                      <footer>
+                                        <div class="views"><i class="ion-eye"></i>2,907</div>
+                                        <div class="love"><i class="ion-heart"></i>623</div>
+                                        <div class="comments"><i class="ion-chatboxes"></i>23</div>
+                                      </footer>
+                                    </figcaption>
+                                    <a href="#"></a>
+                                </figure>
+                            </div>
+                            <!--  -->
+                            <div> 
+                                <figure class="snip1493">
+                                    <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/ls-sample1.jpg" alt="ls-sample1" /></div>
+                                    <figcaption>
+                                      <div class="date"><span class="day">28</span><span class="month">Oct</span></div>
+                                      <h3>The World Ended Yesterday</h3>
+                                      <p>
+                                  
+                                        You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
+                                         You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
+                                     
+                                      </p>
+                                      <footer>
+                                        <div class="views"><i class="ion-eye"></i>2,907</div>
+                                        <div class="love"><i class="ion-heart"></i>623</div>
+                                        <div class="comments"><i class="ion-chatboxes"></i>23</div>
+                                      </footer>
+                                    </figcaption>
+                                    <a href="#"></a>
+                                </figure>    
+                            </div>
+                            <!--  -->
+                            <div>
+                                <figure class="snip1493">
+                                    <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/ls-sample1.jpg" alt="ls-sample1" /></div>
+                                    <figcaption>
+                                      <div class="date"><span class="day">28</span><span class="month">Oct</span></div>
+                                      <h3>The World Ended Yesterday</h3>
+                                      <p>
+                                  
+                                        You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
+                                         You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
+                                     
+                                      </p>
+                                      <footer>
+                                        <div class="views"><i class="ion-eye"></i>2,907</div>
+                                        <div class="love"><i class="ion-heart"></i>623</div>
+                                        <div class="comments"><i class="ion-chatboxes"></i>23</div>
+                                      </footer>
+                                    </figcaption>
+                                    <a href="#"></a>
+                                </figure>    
+                            </div>
+                            <!--  -->
+                            <div>
+                                <figure class="snip1493">
+                                    <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/ls-sample1.jpg" alt="ls-sample1" /></div>
+                                    <figcaption>
+                                      <div class="date"><span class="day">28</span><span class="month">Oct</span></div>
+                                      <h3>The World Ended Yesterday</h3>
+                                      <p>
+                                  
+                                        You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
+                                         You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
+                                     
+                                      </p>
+                                      <footer>
+                                        <div class="views"><i class="ion-eye"></i>2,907</div>
+                                        <div class="love"><i class="ion-heart"></i>623</div>
+                                        <div class="comments"><i class="ion-chatboxes"></i>23</div>
+                                      </footer>
+                                    </figcaption>
+                                    <a href="#"></a>
+                                </figure>    
+                            </div>
+                            <!--  -->
+                            <div>
+                                <figure class="snip1493">
+                                    <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/ls-sample1.jpg" alt="ls-sample1" /></div>
+                                    <figcaption>
+                                      <div class="date"><span class="day">28</span><span class="month">Oct</span></div>
+                                      <h3>The World Ended Yesterday</h3>
+                                      <p>
+                                  
+                                        You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
+                                         You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
+                                     
+                                      </p>
+                                      <footer>
+                                        <div class="views"><i class="ion-eye"></i>2,907</div>
+                                        <div class="love"><i class="ion-heart"></i>623</div>
+                                        <div class="comments"><i class="ion-chatboxes"></i>23</div>
+                                      </footer>
+                                    </figcaption>
+                                    <a href="#"></a>
+                                </figure>    
+                            </div>
+                            <!--  -->
+                            <div>
+                                <figure class="snip1493">
+                                    <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/ls-sample1.jpg" alt="ls-sample1" /></div>
+                                    <figcaption>
+                                      <div class="date"><span class="day">28</span><span class="month">Oct</span></div>
+                                      <h3>The World Ended Yesterday</h3>
+                                      <p>
+                                  
+                                        You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
+                                         You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
+                                     
+                                      </p>
+                                      <footer>
+                                        <div class="views"><i class="ion-eye"></i>2,907</div>
+                                        <div class="love"><i class="ion-heart"></i>623</div>
+                                        <div class="comments"><i class="ion-chatboxes"></i>23</div>
+                                      </footer>
+                                    </figcaption>
+                                    <a href="#"></a>
+                                </figure>    
+                            </div>
+                            <!--  -->
+                        </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--  -->
+    <footer class="c-footer">
+        <div class="grid wide">
+            <div class="row no-gutters">
+                <div class="l-4 m-4 c-12">
+                    <div class="c-footer__inner">
+                        <h4 class="c-footer__title">Liên hệ</h4>
+                        <ul class="c-footer__list">
+                            <li class="c-footer__item">
+                                <i class="c-footer__item-icon fas fa-phone-volume"></i>
+                                <div class="c-footer__contact">
+                                    <h5 class="c-footer__contact-title">
+                                        Hotline
+                                    </h5>
+                                    <p class="c-footer__contact-des">0342.133.767</p>
+                                </div>
+                            </li>
+                            <li class="c-footer__item">
+                                <i class="c-footer__item-icon fas fa-link"></i>
+                                <div class="c-footer__contact">
+                                    <h5 class="c-footer__contact-title">
+                                        Website
+                                    </h5>
+                                    <p class="c-footer__contact-des">http://profile.comcho.net</p>
+                                </div>
+                            </li>
+                            <li class="c-footer__item">
+                                <i class="c-footer__item-icon fas fa-envelope-square"></i>
+                                <div class="c-footer__contact">
+                                    <h5 class="c-footer__contact-title">
+                                        Email
+                                    </h5>
+                                    <p class="c-footer__contact-des">vannguyen2533@gmail.com</p>
+                                </div>
+                            </li>
+                            <li class="c-footer__item">
+                                <i class="c-footer__item-icon fas fa-map-marker-alt"></i>
+                                <div class="c-footer__contact">
+                                    <h5 class="c-footer__contact-title">
+                                        Address
+                                    </h5>
+                                    <p class="c-footer__contact-des">Hiếu Thành-Vũng Liêm-Vĩnh Long.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="l-4 m-4 c-12">
+                    <div class="c-footer__inner">
+                        <h4 class="c-footer__title">Chính sách công ty</h4>
+                        <ul class="c-footer__ruls-list">
+                            <li class="c-footer__ruls-item">
+                                <a class="c-footer__ruls-item-link" href="#">Bảo mật thông tin</a>
+                            </li>
+                            <li class="c-footer__ruls-item">
+                                <a class="c-footer__ruls-item-link" href="#">Qui trình xử lý và khiếu nại</a>
+                            </li>
+                            <li class="c-footer__ruls-item">
+                                <a class="c-footer__ruls-item-link" href="#">Thanh toán và giao hàng</a>
+                            </li>
+                            <li class="c-footer__ruls-item">
+                                <a class="c-footer__ruls-item-link" href="#">Chính sách đổi trả</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="l-4 m-4 c-12">
+                    <div class="c-footer__inner">
+                        <h4 class="c-footer__title">Thông tin</h4>
+                        <div class="c-footer__txtbox">
+                            <p class="c-footer__txt-ct">
+                                Đăng ký theo dõi để nhận những tin tức mới nhất và nhiều thông tin khuyễn mãi từ chúng tôi
+                            </p>
+                            <ul class="c-footer__app-store-list">
+                                <li class="c-footer__app-store-item">
+                                    <a class="c-footer__app-store-item-link" href="#">
+                                        <i class="c-footer__app-store-item-link-icon fab fa-facebook-square"></i>
+                                    </a>
+                                </li>
+                                <li class="c-footer__app-store-item">
+                                    <a class="c-footer__app-store-item-link" href="#">
+                                        <i class="c-footer__app-store-item-link-icon fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="c-footer__app-store-item">
+                                    <a class="c-footer__app-store-item-link" href="#">
+                                        <i class="c-footer__app-store-item-link-icon fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li class="c-footer__app-store-item">
+                                    <a class="c-footer__app-store-item-link" href="#">
+                                        <i class="c-footer__app-store-item-link-icon  fab fa-twitter-square"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+    <div class="footer__bttm">
+        <p> &copy; 2021 Nguyen Van Nguyen.</p>
+    </div>
+</body>
+</html>
