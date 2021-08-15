@@ -595,3 +595,8 @@
 .header-bar__overlay-mobile-close {
     display: none;
 }
+.c-header-bttm__txtbox {
+    margin-left: -116px;
+}
+/* ---------------------------sản phẩm-------------------------------- */
+
