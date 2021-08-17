@@ -137,6 +137,58 @@
             right: 1px;
             font-size: 2.8rem;
         }
+        /* san pham------------------------------------------ */
+        .s-banner-title__inner {
+            align-items: center;
+            justify-content: center;
+        }
+        .s-banner-title__bar-product {
+            margin-right: 10px;
+        }
+        .s-product-overlay {    
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.3);
+            display: none;
+            animation: fadeIn linear 0.8s;
+            z-index: 9999;
+        }
+        .bar-product:checked ~ .s-product-overlay {
+            display: block;
+        }
+        .bar-product:checked ~ .s-product-overlay__mobile {
+            transform: translateX(-0%)
+        } 
+        .s-product-overlay__mobile {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 480px;
+            max-width: 100%;
+            background-color: #000;
+            overflow-y: auto;
+            z-index: 99999;
+            display: block;
+            transform: translateX(-100%);
+            transition: transform linear 0.3s, opacity linear 0.4s;
+        }
+        .s-category-page__title-category {
+            color: #fff;
+            padding: 12px;
+        }
+        .s-category__box {
+            border: none;
+        }
+        .s-category__item-icon  {
+            color: #fff;
+        }
+        .s-category__item:hover {
+            background-color: rgba(225, 225, 225, .1);
+        }
     }
     /* Tablet */
     @media (min-width: 740px) and (max-width: 1023px) {
@@ -175,5 +227,8 @@
         }
         .c-footer__app-store-item-link-icon {
             font-size: 2.6rem;
+        }
+        .s-product-overlay__mobile {
+            width: 58%;
         }
     }
