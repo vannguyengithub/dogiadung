@@ -189,6 +189,10 @@
         .s-category__item:hover {
             background-color: rgba(225, 225, 225, .1);
         }
+        /* --------------new------------------ */
+        .rever-new {
+            flex-wrap: wrap-reverse;
+        }
     }
     /* Tablet */
     @media (min-width: 740px) and (max-width: 1023px) {
@@ -230,5 +234,8 @@
         }
         .s-product-overlay__mobile {
             width: 58%;
+        }
+        .t-new-ctg__title {
+            margin-top: 20px;
         }
     }

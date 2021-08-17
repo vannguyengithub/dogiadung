@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dồ Gia Dụng</title>
+    <link rel="icon" type="image/png" href="https://sieuthiviet.vn/uploads/images/6492icon440x440.jpeg"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.15.4-web/css/all.css">
+    <!-- owl slider  -->
+    <link rel="stylesheet" href="assets/slider/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/slider/owlcarousel/assets/owl.theme.default.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/slider/owlcarousel/owl.carousel.min.js"></script>
+</head>
+<body>
+    <div class="app">   
+        <header>
+            <div class="c-header-top">
+                <div class="grid wide">
+                    <div class="c-header-top__inner">
+                        <ul class="c-header-top-left__list">
+                            <li class="c-header-top-left__item"><a class="c-header-top-left__item-link" href="san-pham.html">Cửa hàng</a> </li>
+                            <li class="c-header-top-left__item">Hotline: <span class="c-header-top-left__phone">0342133767</span></li>
+                            <li class="c-header-top-left__item"><a class="c-header-top-left__item-link" href="#">Trợ giúp</a></li>
+                            <li class="c-header-top-left__item"><a class="c-header-top-left__item-link" href="#">FAQs</a></li>
+                        </ul>
+                        <ul class="c-header-top-right__list">
+                            <li class="c-header-top-right__item">
+                                <div class="c-header-top-right__apps">
+                                    <a class="c-header-top-right__apps-link" href="#"><i class="c-header-top-right__apps--icon fab fa-facebook"></i></a>
+                                    <a class="c-header-top-right__apps-link" href="#"><i class="c-header-top-right__apps--icon fab fa-instagram"></i></a>
+                                    <a class="c-header-top-right__apps-link" href="#"><i class="c-header-top-right__apps--icon fab fa-youtube"></i></a>
+                                </div>
+                            </li>
+                            <li class="c-header-top-right__item">
+                                <div class="c-header-top-right__logins">
+                                   <a class="c-header-top-right__login-link1" href="dang-nhap.html">Đăng nhập</a>
+                                   <a class="c-header-top-right__login-link" href="dang-nhap.hmtl">Đăng ký</a>
+                                </div>
+                            </li>
+                            <li class="c-header-top-right__item">
+                                <a class="c-header-top-right__cart-link" href="#"><i class="c-header-top-right__icon-cart fas fa-shopping-cart"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="c-header-bttm">
+                <div class="grid wide">
+                    <div class="c-header-bttm__inner">
+                        <!-- bar -->
+                        <label for="bar-input" class="header-bar">
+                            <i class="header-bar__icon fas fa-bars"></i>
+                        </label>
+                        <input class="header-bar__input" hidden type="checkbox" id="bar-input">
+                        <label for="bar-input" class="c-header-overlay">
+                            <div class="header-bar__overlay-mobile-close">
+                                <i class="header-bar__overlay-mobile-close-icon far fa-times-circle"></i>
+                            </div>
+                        </label>
+                        <!-- overlay -->
+                        <div class="header-bar__overlay-mobile">
+                            <div class="header-bar__overlay-mobile-search">
+                                <input class="header-bar__overlay-mobile-search-ipt" placeholder="Tìm kiếm..." type="text">
+                                <i class="header-bar__overlay-mobile-search-icon fas fa-search"></i>
+                            </div>
+                            <ul class="header-bar__overlay-mobile-list">
+                                <li class="header-bar__overlay-mobile-item">
+                                    <a class="header-bar__overlay-mobile-link" href="index.html">Trang chủ</a>
+                                </li>
+                                <li class="header-bar__overlay-mobile-item">
+                                    <a class="header-bar__overlay-mobile-link" href="gioi-thieu.html">Giới thiệu</a>
+                                </li>    
+                                <li class="header-bar__overlay-mobile-item">
+                                    <a class="header-bar__overlay-mobile-link" href="san-pham.html">Sản phẩm</a>
+                                </li>
+                                <li class="header-bar__overlay-mobile-item">
+                                    <a class="header-bar__overlay-mobile-link" href="khuyen-mai.html">Khuyến mãi </a>
+                                </li>
+                                <li class="header-bar__overlay-mobile-item">
+                                    <a class="header-bar__overlay-mobile-link" href="tin-tuc.html">Tin tức</a>
+                                </li>
+                                <li class="header-bar__overlay-mobile-item">
+                                    <a class="header-bar__overlay-mobile-link" href="lien-he.html">Liên hệ</a>
+                                </li>
+                                <li class="header-bar__overlay-mobile-item">
+                                    <a class="header-bar__overlay-mobile-link" href="dang-nhap.html">Đăng nhập</a>
+                                </li>
+                                <li class="header-bar__overlay-mobile-item">
+                                    <a class="header-bar__overlay-mobile-link" href="thong-bao.html">Thông báo</a>
+                                </li>
+                                <li class="header-bar__overlay-mobile-item">
+                                    <a class="header-bar__overlay-mobile-link-app" href="#">
+                                        <i class="header-bar__overlay-mobile-link-app-icon fab fa-facebook"></i>
+                                    </a>
+                                    <a class="header-bar__overlay-mobile-link-app" href="#">
+                                        <i class="header-bar__overlay-mobile-link-app-icon fab fa-instagram"></i>
+                                    </a>
+                                    <a class="header-bar__overlay-mobile-link-app" href="#">
+                                        <i class="header-bar__overlay-mobile-link-app-icon fab fa-youtube"></i>
+                                    </a>
+                                    <a class="header-bar__overlay-mobile-link-app" href="#">
+                                        <i class="header-bar__overlay-mobile-link-app-icon fab fa-twitter-square"></i>
+                                    </a>
+                                </li>
+                                <li class="header-bar__overlay-mobile-item">
+                                    <h3 class="header-bar__overlay-mobile-phone">0342133767</h3>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--  -->
+                        <div class="c-header-bttm__txtbox">
+                            <a class="c-header-bttm__logo-img-link" href="#"><img class="c-header-bttm__logo-img" src="assets/img/11logoN.png" alt="logo"></a>
+                            <i class="c-header-bttm__shopping-mobile fas fa-shopping-cart"></i>
+                            <ul class="c-header-bttm__list">
+                                <li class="c-header-bttm__item"><a class="c-header-bttm__item-link c-header-bttm__item-link--active" href="index.html">Trang chủ</a></li>
+                                <li class="c-header-bttm__item">
+                                    <a class="c-header-bttm__item-link" href="san-pham.html">Sản phẩm</a>
+                                    <!--  -->
+                                    <ul class="c-header-bttm__item-category-list">
+                                        <li class="c-header-bttm__item-category-item">
+                                            <a class="c-header-bttm__item-category-item-link" href="#"> Bàn ghế</a>
+                                        </li>
+                                        <li class="c-header-bttm__item-category-item">
+                                            <a class="c-header-bttm__item-category-item-link" href="#"> Gia đình</a>
+                                        </li>
+                                        <li class="c-header-bttm__item-category-item">
+                                            <a class="c-header-bttm__item-category-item-link" href="#"> Sân vườn </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="c-header-bttm__item"><a class="c-header-bttm__item-link" href="gioi-thieu.html">Giới thiệu</a></li>
+                                <li class="c-header-bttm__item">
+                                    <a class="c-header-bttm__item-link" href="tin-tuc.html">Tin tức</a>
+                                    <ul class="c-header-bttm__item-category-list">
+                                        <li class="c-header-bttm__item-category-item">
+                                            <a class="c-header-bttm__item-category-item-link" href="tin-tuc.html"> Tin tức</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="c-header-bttm__item"><a class="c-header-bttm__item-link" href="lien-he.html">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                        <div class="c-header-bttm__search">
+                                <input class="c-header-bttm__search-ipt" type="text" placeholder="Tìm kiếm...."> 
+                                <div class="c-header-bttm__font-icon">
+                                    <i class="c-header-bttm__search-icon fas fa-search"></i>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--  -->
+        <section class="t-home-new">
+            <div class="grid wide">
+                <div class="t-home-new__inner">
+                    <p class="t-home-new__title">Category Archives: Tin tức </p>
+                </div>
+            </div>
+        </section>
+        <!-- tin tuc home -->
+        <section class="t-new-home">
+            <div class="grid wide">
+                <div class="row sm-gutter rever-new">
+                    <div class="col l-3 m-12">
+                        <div class="t-new-ctg__inner">
+                            <h3 class="t-new-ctg__title">
+                                Bài viết mới    
+                            </h3>
+                            <ul class="t-new-ctg__list">
+                                <li class="t-new-ctg__item">
+                                    <a class="t-new-ctg__item-link" href="#">
+                                        <div class="t-new-ctg__item-imgbox">
+                                            <img class="t-new-ctg__item-img" src="assets/img/post-banner.jpg" alt="">
+                                        </div>
+                                        <p class="t-new-ctg__item-content">
+                                            Không gian đẹp nhờ kết hợp các phong cách nội thất khác nhauKhông gian đẹp nhờ kết hợp các phong cách nội thất khác nhau
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="t-new-ctg__item">
+                                    <a class="t-new-ctg__item-link" href="#">
+                                        <div class="t-new-ctg__item-imgbox">
+                                            <img class="t-new-ctg__item-img" src="assets/img/post-banner.jpg" alt="">
+                                        </div>
+                                        <p class="t-new-ctg__item-content">
+                                            Không gian đẹp nhờ kết hợp các phong cách nội thất khác nhauKhông gian đẹp nhờ kết hợp các phong cách nội thất khác nhau
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="t-new-ctg__item">
+                                    <a class="t-new-ctg__item-link" href="#">
+                                        <div class="t-new-ctg__item-imgbox">
+                                            <img class="t-new-ctg__item-img" src="assets/img/post-banner.jpg" alt="">
+                                        </div>
+                                        <p class="t-new-ctg__item-content">
+                                            Không gian đẹp nhờ kết hợp các phong cách nội thất khác nhauKhông gian đẹp nhờ kết hợp các phong cách nội thất khác nhau
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="t-new-ctg__item">
+                                    <a class="t-new-ctg__item-link" href="#">
+                                        <div class="t-new-ctg__item-imgbox">
+                                            <img class="t-new-ctg__item-img" src="assets/img/post-banner.jpg" alt="">
+                                        </div>
+                                        <p class="t-new-ctg__item-content">
+                                            Không gian đẹp nhờ kết hợp các phong cách nội thất khác nhauKhông gian đẹp nhờ kết hợp các phong cách nội thất khác nhau
+                                        </p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-9 new-btt">
+                        <div class="t-home-new-tt">
+                            <div class="row sm-gutter">
+                                <div class="col l-4 m-6">
+                                    <div class="t-home-new-tt__inner">
+                                        <a class="t-home-new__inner-home-link" href="#">
+                                            <img class="t-home-new__img" src="assets/img/new.jpg" alt="">
+                                            <div class="t-home-new__txtbox">
+                                                <h4 class="t-home-new__ttl">
+                                                    Không gian đẹp nhờ kết hợp các phong cách nội thất khác nhau
+                                                </h4>
+                                                <p class="t-home-new__content">
+                                                    Hiện tại, mọi người thường do dự trong việc kết hợp các phong cách nội Hiện tại, mọi người thường do dự trong việc kết hợp các phong cách nội
+                                                </p>
+                                                <div class="t-home-new__date">
+                                                    <span class="t-home-new__date-details">10/ 02/ 2021</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="t-home-new-tt__inner">
+                                        <a class="t-home-new__inner-home-link" href="#">
+                                            <img class="t-home-new__img" src="assets/img/new.jpg" alt="">
+                                            <div class="t-home-new__txtbox">
+                                                <h4 class="t-home-new__ttl">
+                                                    Không gian đẹp nhờ kết hợp các phong cách nội thất khác nhau
+                                                </h4>
+                                                <p class="t-home-new__content">
+                                                    Hiện tại, mọi người thường do dự trong việc kết hợp các phong cách nội Hiện tại, mọi người thường do dự trong việc kết hợp các phong cách nội
+                                                </p>
+                                                <div class="t-home-new__date">
+                                                    <span class="t-home-new__date-details">10/ 02/ 2021</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="t-home-new-tt__inner">
+                                        <a class="t-home-new__inner-home-link" href="#">
+                                            <img class="t-home-new__img" src="assets/img/new.jpg" alt="">
+                                            <div class="t-home-new__txtbox">
+                                                <h4 class="t-home-new__ttl">
+                                                    Không gian đẹp nhờ kết hợp các phong cách nội thất khác nhau
+                                                </h4>
+                                                <p class="t-home-new__content">
+                                                    Hiện tại, mọi người thường do dự trong việc kết hợp các phong cách nội Hiện tại, mọi người thường do dự trong việc kết hợp các phong cách nội
+                                                </p>
+                                                <div class="t-home-new__date">
+                                                    <span class="t-home-new__date-details">10/ 02/ 2021</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="t-home-new-tt__inner">
+                                        <a class="t-home-new__inner-home-link" href="#">
+                                            <img class="t-home-new__img" src="assets/img/new.jpg" alt="">
+                                            <div class="t-home-new__txtbox">
+                                                <h4 class="t-home-new__ttl">
+                                                    Không gian đẹp nhờ kết hợp các phong cách nội thất khác nhau
+                                                </h4>
+                                                <p class="t-home-new__content">
+                                                    Hiện tại, mọi người thường do dự trong việc kết hợp các phong cách nội Hiện tại, mọi người thường do dự trong việc kết hợp các phong cách nội
+                                                </p>
+                                                <div class="t-home-new__date">
+                                                    <span class="t-home-new__date-details">10/ 02/ 2021</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="t-home-new-tt__inner">
+                                        <a class="t-home-new__inner-home-link" href="#">
+                                            <img class="t-home-new__img" src="assets/img/new.jpg" alt="">
+                                            <div class="t-home-new__txtbox">
+                                                <h4 class="t-home-new__ttl">
+                                                    Không gian đẹp nhờ kết hợp các phong cách nội thất khác nhau
+                                                </h4>
+                                                <p class="t-home-new__content">
+                                                    Hiện tại, mọi người thường do dự trong việc kết hợp các phong cách nội Hiện tại, mọi người thường do dự trong việc kết hợp các phong cách nội
+                                                </p>
+                                                <div class="t-home-new__date">
+                                                    <span class="t-home-new__date-details">10/ 02/ 2021</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="t-home-new-tt__inner">
+                                        <a class="t-home-new__inner-home-link" href="#">
+                                            <img class="t-home-new__img" src="assets/img/new.jpg" alt="">
+                                            <div class="t-home-new__txtbox">
+                                                <h4 class="t-home-new__ttl">
+                                                    Không gian đẹp nhờ kết hợp các phong cách nội thất khác nhau
+                                                </h4>
+                                                <p class="t-home-new__content">
+                                                    Hiện tại, mọi người thường do dự trong việc kết hợp các phong cách nội Hiện tại, mọi người thường do dự trong việc kết hợp các phong cách nội
+                                                </p>
+                                                <div class="t-home-new__date">
+                                                    <span class="t-home-new__date-details">10/ 02/ 2021</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="t-home-new-tt__inner">
+                                        <a class="t-home-new__inner-home-link" href="#">
+                                            <img class="t-home-new__img" src="assets/img/new.jpg" alt="">
+                                            <div class="t-home-new__txtbox">
+                                                <h4 class="t-home-new__ttl">
+                                                    Không gian đẹp nhờ kết hợp các phong cách nội thất khác nhau
+                                                </h4>
+                                                <p class="t-home-new__content">
+                                                    Hiện tại, mọi người thường do dự trong việc kết hợp các phong cách nội Hiện tại, mọi người thường do dự trong việc kết hợp các phong cách nội
+                                                </p>
+                                                <div class="t-home-new__date">
+                                                    <span class="t-home-new__date-details">10/ 02/ 2021</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+         <!-- phan trang  -->
+         <div class="s-pagination">
+            <div class="grid wide">
+                <div class="s-pagination__inner">
+                    <ul class="s-pagination__list">
+                        <li class="s-pagination__item">
+                            <a class="s-pagination__item-link" href="#">
+                                <i class="s-pagination__item-link-icon fas fa-chevron-circle-left"></i>
+                            </a>
+                        </li>
+                        <li class="s-pagination__item s-pagination__item--active">
+                            <a class="s-pagination__item-link" href="#">
+                                1
+                            </a>
+                        </li>
+                        <li class="s-pagination__item">
+                            <a class="s-pagination__item-link" href="#">
+                                2
+                            </a>
+                        </li>
+                        <li class="s-pagination__item">
+                            <a class="s-pagination__item-link" href="#">
+                                3
+                            </a>
+                        </li>
+                        <li class="s-pagination__item">
+                            <a class="s-pagination__item-link" href="#">
+                                4
+                            </a>
+                        </li>
+                        <li class="s-pagination__item">
+                            <a class="s-pagination__item-link" href="#">
+                                5
+                            </a>
+                        </li>
+                        <li class="s-pagination__item">
+                            <a class="s-pagination__item-link" href="#">
+                                <i class="s-pagination__item-link-icon fas fa-chevron-circle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="c-footer">
+        <div class="grid wide">
+            <div class="row no-gutters">
+                <div class="l-4 m-4 c-12">
+                    <div class="c-footer__inner">
+                        <h4 class="c-footer__title">Liên hệ</h4>
+                        <ul class="c-footer__list">
+                            <li class="c-footer__item">
+                                <i class="c-footer__item-icon fas fa-phone-volume"></i>
+                                <div class="c-footer__contact">
+                                    <h5 class="c-footer__contact-title">
+                                        Hotline
+                                    </h5>
+                                    <p class="c-footer__contact-des">0342.133.767</p>
+                                </div>
+                            </li>
+                            <li class="c-footer__item">
+                                <i class="c-footer__item-icon fas fa-link"></i>
+                                <div class="c-footer__contact">
+                                    <h5 class="c-footer__contact-title">
+                                        Website
+                                    </h5>
+                                    <p class="c-footer__contact-des">http://profile.comcho.net</p>
+                                </div>
+                            </li>
+                            <li class="c-footer__item">
+                                <i class="c-footer__item-icon fas fa-envelope-square"></i>
+                                <div class="c-footer__contact">
+                                    <h5 class="c-footer__contact-title">
+                                        Email
+                                    </h5>
+                                    <p class="c-footer__contact-des">vannguyen2533@gmail.com</p>
+                                </div>
+                            </li>
+                            <li class="c-footer__item">
+                                <i class="c-footer__item-icon fas fa-map-marker-alt"></i>
+                                <div class="c-footer__contact">
+                                    <h5 class="c-footer__contact-title">
+                                        Address
+                                    </h5>
+                                    <p class="c-footer__contact-des">Hiếu Thành-Vũng Liêm-Vĩnh Long.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="l-4 m-4 c-12">
+                    <div class="c-footer__inner">
+                        <h4 class="c-footer__title">Chính sách công ty</h4>
+                        <ul class="c-footer__ruls-list">
+                            <li class="c-footer__ruls-item">
+                                <a class="c-footer__ruls-item-link" href="#">Bảo mật thông tin</a>
+                            </li>
+                            <li class="c-footer__ruls-item">
+                                <a class="c-footer__ruls-item-link" href="#">Qui trình xử lý và khiếu nại</a>
+                            </li>
+                            <li class="c-footer__ruls-item">
+                                <a class="c-footer__ruls-item-link" href="#">Thanh toán và giao hàng</a>
+                            </li>
+                            <li class="c-footer__ruls-item">
+                                <a class="c-footer__ruls-item-link" href="#">Chính sách đổi trả</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="l-4 m-4 c-12">
+                    <div class="c-footer__inner">
+                        <h4 class="c-footer__title">Thông tin</h4>
+                        <div class="c-footer__txtbox">
+                            <p class="c-footer__txt-ct">
+                                Đăng ký theo dõi để nhận những tin tức mới nhất và nhiều thông tin khuyễn mãi từ chúng tôi
+                            </p>
+                            <ul class="c-footer__app-store-list">
+                                <li class="c-footer__app-store-item">
+                                    <a class="c-footer__app-store-item-link" href="#">
+                                        <i class="c-footer__app-store-item-link-icon fab fa-facebook-square"></i>
+                                    </a>
+                                </li>
+                                <li class="c-footer__app-store-item">
+                                    <a class="c-footer__app-store-item-link" href="#">
+                                        <i class="c-footer__app-store-item-link-icon fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="c-footer__app-store-item">
+                                    <a class="c-footer__app-store-item-link" href="#">
+                                        <i class="c-footer__app-store-item-link-icon fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li class="c-footer__app-store-item">
+                                    <a class="c-footer__app-store-item-link" href="#">
+                                        <i class="c-footer__app-store-item-link-icon  fab fa-twitter-square"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+    <div class="footer__bttm">
+        <p> &copy; 2021 Nguyen Van Nguyen.</p>
+    </div>
+</body>
+</html>

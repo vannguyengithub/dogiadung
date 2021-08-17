@@ -822,3 +822,129 @@
 .s-product-overlay__mobile {
     display: none;
 }
+/* -------------------tin tức--------------- */
+.t-home-new {
+    height: 60px;
+    background-color: #f5f5f5;
+    margin: 18px 0;
+}
+.t-home-new__inner {
+    text-align: center;
+    line-height: 60px;
+}
+.t-home-new__title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--text-color);
+    letter-spacing: 2px;
+}
+.t-new-home {
+
+}
+.t-new-ctg__inner {
+
+}
+.t-new-ctg__title {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #000;
+}
+.t-new-ctg__list {
+    list-style: none;
+    border: 1px solid var(--text-color);
+}
+.t-new-ctg__item {
+    padding: 10px;
+    transition: all .3s ease
+}
+.t-new-ctg__item-link:hover {
+    background-color: rgba(0, 0, 0, .1);
+}
+.t-new-ctg__item-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding: 5px;
+    transition: all .3s ease
+}
+.t-new-ctg__item:last-child > .t-new-ctg__item-link {
+    border-bottom: none ;
+}
+.t-new-ctg__item-imgbox {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+.t-new-ctg__item-img {
+    height: 100%;
+    border-radius: 50%;
+}
+.t-new-ctg__item-content {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+}
+/* tt home */
+.t-home-new-tt {
+
+}
+.new-btt {
+    margin-top: 36px;
+}
+.t-home-new__inner-home-link {
+    text-decoration: none;
+}
+.t-home-new-tt__inner {
+    border: 1px solid rgba(0, 0, 0, .1);
+    margin-bottom: 28px;
+    transition: all .3s ease;
+}
+.t-home-new-tt__inner:hover {
+    -webkit-box-shadow: 6px 10px 4px -6px #000000; 
+    box-shadow: 6px 10px 4px -6px #000000;
+}
+.t-home-new__txtbox {
+    padding: 10px;
+}
+.t-home-new__img {
+    width: 100%;
+    height: 100%;
+}
+.t-home-new__ttl {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #000;
+    font-weight: bold;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+}
+.t-home-new__content {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin: 10px 0;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+}
+.t-home-new__date {
+
+}
+.t-home-new__date-details {
+    font-size: 1.1rem;
+    color: #00008b;
+}
